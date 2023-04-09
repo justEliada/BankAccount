@@ -1,0 +1,20 @@
+Create the Account Class with attributes:
+
+-owner
+-balance
+-registrationDate
+-currency
+The methods of this class:
+-deposit(amount)
+-withdraw(amount)
+
+Create an account object with the default constructor.
+
+
+Show the initial balance of the created account. 
+To access  a public attribute of an object we use the dot operator with the standart: objectName.attribute.In our case: account1.balance 
+Show the default owner.
+Set the owner of the account through the dot operator (account1.owner)
+Show the registration date.
+Then deposit 10000, show the current balance. Withdraw 500, show the final balance.
+To invoke a method that applies to an object , we use the dot operator with the standart: objectName.method.In our case: account1.withdraw(x) 
